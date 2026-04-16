@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(https://t3.ftcdn.net/jpg/05/05/03/86/360_F_505038652_ecncEg0kTLaE01CMTkMClTxeuleFJ8Xj.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .hero{
+            width:80%;
+            height: fit-content;
+            margin-top: 10%;
+            margin-left: 16%;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 1em;
+            overflow: hidden;
+        }
+         table{
+            width:100%;
+            table-layout: fixed;
+            height: fit-content;
+            border-collapse: collapse;
+        }
+        th{
+            color: white;
+            width:25%;
+            padding:20px;
+            border-bottom: 2px solid;
+            border-bottom: 1px solid white;
+           text-align: left;
+        }
+         td {
+            color: white;
+            padding: 0.8em 1em;
+            border-bottom: 1px solid white;
+            
+        }
+        .email-table .col-sender{
+            width: 60px;
+            text-align: left;
+        }
+        .hero th:first-child{
+            border-bottom: 4px solid white;
+        }
+        .hero th.active{
+            color: white;
+            border-bottom: 4px solid white;
+        }
+        pre{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .td1{
+           text-align: left;
+        }
+        .td2{
+            text-align:right;
+            width:100px;
+        }
+        input[type="checkbox"]{
+            color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.5);
+        }
+        input[type="checkbox"]:checked{
+            accent-color: rgba(255, 255, 255, 0.5);
+        }
+        tr:has(input[type="checkbox"]:checked){
+            align-items: center;
+            color: white;
+            background-color:#174EA6 ;
+        }
+        tr:hover{
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+        }
+        input[type="checkbox"]:hover{
+            border:1px solid red;
+            background: rgba(255, 255, 255, 0.5);
+        }
+        .col-sender{
+           vertical-align: middle;
+        }
+       
+       
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <table class="email-table">
+            <tr>
+                <th colspan="2">Primary</th>
+                <th class="promotional">Promotional</th>
+                <th class="social">Social</th>
+                <th class="updates">Updates</th>
+               
+            </tr>
+            <tr>
+                <td class="col-sender" > <input type="checkbox"> Indeed  </td>
+            <td>
+                <td class="td1"><pre>Apply jobs now  Attended the workshop  join now</pre></td>
+                <td></td>
+                <td class="td2" colspan="0">10pm</td>
+            </td>
+            </tr>
+            <tr>
+                <td class="col-sender" > Google  </td>
+                <td>
+                    <td class="td1"><pre>Forgot youre password   Change Password  immediently</pre></td>
+                    <td></td>
+                    <td class="td2">Fri</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-sender"  >Youtube</td>
+               <td>
+                <td class="td1"><pre>Commented video  Encourage audience  Create New content</pre></td>
+                <td></td>
+                    <td class="td2">9:50am</td>
+               </td>
+            </tr>
+            <tr>
+                <td class="col-sender"  >Twitter</td>
+                   <td>
+                    <td class="td1" colspan="1"><pre>Posted on tweet    Reposted tweets   Youre   Audience</pre></td>
+                    <td></td>
+                    <td class="td2">Sun</td>
+                   </td>
+                
+            </tr>
+            <tr>
+                <td class="col-sender" >Snapchat</td>
+                <td>
+                    <td class="td1"><pre>Recived one snap  Snapchat feature update</pre></td>
+                    <td></td>
+                    <td class="td2">Fri</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-sender" >Instgram</td>
+               <td>
+                <td class="td1"><pre>Commented reel   Story liked New User</pre></td>
+                <td class="td1"></td>
+                    <td class="td2">Mon</td>
+               </td>
+            </tr>
+            <tr>
+                <td class="col-sender" >hike</td>
+                <td>
+                    <td class="td1"><pre>Chat now youre favorite one  Messanges hike like</pre></td>
+                    <td class="td1"></td>
+                    <td class="td2">8:56Am</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-sender" >facebook</td>
+                <td>
+                    <td class="td1"><pre>Liked youre profile  Reacted youre post</pre></td>
+                    <td class="td1"></td>
+                    <td class="td2">2:47Pm</td>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-sender" >riddit</td>
+               <td>
+                <td class="td1"><pre>Hyderabad biriyani/posted   Login again redddit</pre></td>
+                <td class="td1"></td>
+                <td class="td2">11:51Pm</td>
+               </td>
+            </tr>
+            <tr>
+                <td class="col-sender" >security</td>
+               <td>
+                <td class="td1"><pre>Check  password   Security Instructions</pre></td>
+                <td class="td1"></td>
+                <td class="td2">Sat</td>
+               </td>
+            </tr>
+            <tr>
+                <td class="col-sender" >spam</td>
+                <td>
+                    <td class="td1"><pre>50cr credited youre   Check it on Youre mail</pre></td>
+                    <td class="td1"> </td>
+                    <td class="td2"> Wen</td>
+                </td>
+            </tr>
+        </tr>
+       
+        </table>
+    </div>
+</body>
+</html>
